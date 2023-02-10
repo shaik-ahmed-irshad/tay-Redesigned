@@ -38,7 +38,17 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
+<style>
+  #smallHead {
+    font-size: 45px;
+  }
+  @media (max-width: 768px) {
+    #smallHead {
+      font-size: 35px;
+    }
+}
 
+</style>
   <body>
     <!-- Spinner Start -->
     <div
@@ -134,11 +144,11 @@
             <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
             <div class="carousel-caption">
               <div class="container">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <h1 class="display-3 mb-4  px-5 animated slideInDown" style="color: var(--primary);">
+                <div class="">
+                  <div class="col-lg">
+                    <h5 class="display-3 mb-4  px-5 animated slideInDown" id="smallHead" style="color: var(--primary); ">
                       Tareeq Al Yqeen (Tay) Healthcare
-                    </h1>
+                    </h5>
                     <p class="fs-5 px-5 mb-5" style="color: var(--primary);">
                      Couldn't Be Better
                     </p>
@@ -154,11 +164,11 @@
             <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
             <div class="carousel-caption">
               <div class="container">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <h1 class="display-3 mb-4 text-dark px-5 animated slideInDown" style="color: var(--primary);">
+                <div class="">
+                  <div class="col-lg">
+                    <h5 class="display-3 mb-4 text-dark px-5 animated slideInDown" id="smallHead" style="color: var(--primary);">
                       Tareeq Al Yqeen (Tay) Healthcare
-                    </h1>
+                    </h5>
                     <p class="fs-5 text-dark px-5 mb-5">
                      Couldn't Be Better
                     </p>
@@ -253,10 +263,10 @@
     <!-- About End -->
 
     <!-- Facts Start -->
-    <div class="container-fluid overflow-hidden my-5 px-lg-0">
+    <!-- <div class="container-fluid overflow-hidden my-5 px-lg-0">
       <div class="container facts px-lg-0">
         <div class=" g-0 mx-lg-0">
-          <!-- <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
+          <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
             <div class="h-100 px-4 ps-lg-0">
               <h1 class="text-white mb-4">For Individuals And Organisations</h1>
               <p class="text-light mb-5">
@@ -268,7 +278,7 @@
                 >More Details</a
               >
             </div>
-          </div> -->
+          </div>
           <div class="col-lg facts-counter wow mx-lg-5 fadeIn" data-wow-delay="0.5s" style="background-color: var(--primary);">
             <div class="h-40  pe-lg-0 py-5 align-items-center ">
               <div class="row g-5">
@@ -293,7 +303,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Facts End -->
 
     <!-- Features Start -->
@@ -396,7 +406,7 @@
       <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px">
           <h1 class="display-6 mb-5">
-            We Provide all Healthcare Services
+            Healthcare Services
           </h1>
         </div>
         <div class="row g-4 justify-content-center">
@@ -416,7 +426,9 @@
                 <h5 class="mb-0">HealthCare Professional Licencing</h5>
               </div>
               <p class="mb-4" >
-                We provide licensing for all medical healthcare professionals.
+                Healthcare professionals who are seeking to practice in gulf countries 
+                are required to acquire a license to practice. Tay Healthcare offers 
+                licensing service for Healthcare professionals wanting to work in the gulf countries.
               </p>
               <a class="btn btn-light px-3" href="license.html">Read More</a>
             </div>
@@ -437,9 +449,11 @@
                 <h5 class="mb-0">Healtcare Professional Recruitment</h5>
               </div>
               <p class="mb-4" >
-                We help the healthcare professionals in recruitment process.
+                TAY Healthcare consultancy offers the best recruitment support 
+                to all the Medical professionals with the objective to help companies 
+                to hire some of the most Productive & result oriented talent across the industry.
               </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
+              <a class="btn btn-light px-3" href="recruitment.html">Read More</a>
             </div>
           </div>
           <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -458,9 +472,12 @@
                 <h5 class="mb-0">Medical Facilities & Hospital Management</h5>
               </div>
               <p class="mb-4" >
-                We customize our hospital management system to optimize your administrative processes. 
-                We focus on customer service and satisfaction, with an end goal to streamline your 
-                operation smoothly.
+                TAY Healthcare believes in taking care of all the issues that may impede the 
+                development of healthcare practitioners and investors. We provide the 
+                comprehensive support in securing operating management of healthcare facilities 
+                such as clinics, homecare center, hospitals pharmacies, dental practices, 
+                medical drug store and other related facilities as per the health authority’s 
+                guidelines and timelines.
               </p>
               <a class="btn btn-light px-3" href="hospitalManagement.html">Read More</a>
             </div>
@@ -481,8 +498,13 @@
                 <h5 class="mb-0">Medical and Pharmaceutical Supply</h5>
               </div>
               <p class="mb-4" >
-                Distributor of many famous brands and supply of Medicines and also WHO-approved vaccines 
-              around the globe. Whether you want food supplements or medicine, TAY has it all. 
+                TAY   is a diversified trading company that provides Medical Equipment, 
+              Hospital management with equipment management, and importation and exportation 
+              of medicines.
+              Trading medical equipment and medicine are just two of TAY’s many initiatives, 
+              with more on the way. Our products and services cover several key industry 
+              verticals, solidifying us as a leading full-service supplier to a variety of needs.
+
               </p>
               <a class="btn btn-light px-3" href="pharma.html">Read More</a>
             </div>
@@ -794,7 +816,7 @@
     <!-- <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px">
-          <h1 class="display-6 mb-5">What They Say About Our Insurance</h1>
+          <h1 class="display-6 mb-5">Testimonials</h1>
         </div>
         <div class="row g-5">
           <div class="col-lg-3 d-none d-lg-block">
@@ -829,7 +851,21 @@
                   labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
                   et labore et tempor diam tempor erat.
                 </p>
-                <h5>Client Name</h5>
+                <h5>Client 1</h5>
+                <span>Doctor</span>
+              </div>
+              <div class="testimonial-item text-center">
+                <img
+                  class="img-fluid rounded mx-auto mb-4"
+                  src="img/testimonial-2.jpg"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
+                  et labore et tempor diam tempor erat.
+                </p>
+                <h5>Client 2</h5>
                 <span>Profession</span>
               </div>
               <div class="testimonial-item text-center">
@@ -843,7 +879,21 @@
                   labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
                   et labore et tempor diam tempor erat.
                 </p>
-                <h5>Client Name</h5>
+                <h5>Client 3</h5>
+                <span>Doctor 2</span>
+              </div>
+              <div class="testimonial-item text-center">
+                <img
+                  class="img-fluid rounded mx-auto mb-4"
+                  src="img/testimonial-2.jpg"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
+                  et labore et tempor diam tempor erat.
+                </p>
+                <h5>Client 4</h5>
                 <span>Profession</span>
               </div>
               <div class="testimonial-item text-center">
